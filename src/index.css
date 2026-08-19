@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #00AD32;
+  --color-brand-green-dark: #008F2A;
+  --color-brand-green-light: #EBFAEF;
+  --color-brand-green-muted: #D1F2D9;
+  /* 星钻四级颜色（取自设计系统色卡） */
+  --color-diamond-green: #00A75B;     /* 星钻 - 中宏绿 */
+  --color-diamond-silver: #8E90A2;    /* 银星钻 - 银色（深蓝色浅4） */
+  --color-diamond-gold: #F9AD21;      /* 金星钻 - 金色浅1 */
+  --color-diamond-platinum: #282B3E;  /* 白金星钻 - 深蓝色 */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
